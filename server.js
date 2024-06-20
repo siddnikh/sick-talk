@@ -1,23 +1,26 @@
 require('dotenv').config();
 const http = require('http');
 const app = require('./app');
-const redisConfig = require('./config/redisConfig');
+const logger = require('./config/logger');
 const connectDB = require('./config/dbConfig');
 const socketIo = require('socket.io');
-const redisSubscriber = require('./pubsub/redisSubscriber');
 const jwt = require('jsonwebtoken');
-const Message = require('./models/messageModel'); // Import the message model
+const Message = require('./models/messageModel');
+const { transformNewMessage } = require('./utils/transformers');
+
 
 const PORT = process.env.PORT || 4000;
 const server = http.createServer(app);
-const io = socketIo(server);
-
-const { client: redisClient } = redisConfig;
+const io = socketIo(server, {
+    cors: {
+        origin: '*',
+    },
+});
 
 if (process.env.PORT) {
-    console.log("env file loaded successfully! 💪");
+    logger.info("env file loaded successfully! 💪");
 } else {
-    console.error("Failed to load env file. ❌");
+    logger.error("Failed to load env file. ❌");
 }
 
 // Middleware to authenticate socket connections
@@ -37,7 +40,7 @@ io.use((socket, next) => {
 });
 
 io.on('connection', (socket) => {
-    console.log('New client connected');
+    logger.info(`New client connected: ${socket.user.id}`);
 
     socket.on('sendMessage', async (data) => {
         const { recipient, message } = data;
@@ -48,24 +51,21 @@ io.on('connection', (socket) => {
             timestamp: new Date(),
         };
 
-        // Save the message to the database
         try {
-            const savedMessage = await Message.create(newMessage);
-            redisClient.publish('messages', JSON.stringify(savedMessage));
+            await Message.create(newMessage);
+            const messageToSend = await transformNewMessage(newMessage);
+            io.emit('receiveMessage', messageToSend);
         } catch (error) {
-            console.error('Error saving message to database:', error);
+            logger.error('Error saving message to database:', error);
         }
     });
 
     socket.on('disconnect', () => {
-        console.log('Client disconnected');
+        logger.warn(`Client disconnected: ${socket.user.id}`);
     });
 });
 
-redisSubscriber(io);
-
 server.listen(PORT, () => {
-    redisConfig.connect();
     connectDB();
-    console.log(`Server is running on port ${PORT} 🚀`);
+    logger.info(`Server is running on port ${PORT} 🚀`);
 });

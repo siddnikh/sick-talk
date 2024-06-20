@@ -1,0 +1,31 @@
+2024-06-12 16:24:54 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-12 16:24:54 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-13 21:35:35 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-13 21:35:35 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-13 21:36:49 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-13 21:36:49 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:29:33 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:29:33 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:35:48 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:35:48 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:36:28 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:36:28 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:37:53 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:37:53 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:38:04 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:38:04 [31merror[39m: Error while verifying jwt:  invalid token
+2024-06-15 00:49:46 [31merror[39m: Error saving message to database: Message validation failed: recipient: Path `recipient` is required.
+2024-06-15 00:49:50 [31merror[39m: Error saving message to database: Message validation failed: recipient: Path `recipient` is required.
+2024-06-15 01:44:11 [31merror[39m: Error while verifying jwt:  jwt expired
+2024-06-15 01:44:11 [31merror[39m: Error while verifying jwt:  jwt expired
+2024-06-15 13:56:35 [31merror[39m: Error while verifying jwt:  jwt expired
+2024-06-15 13:56:35 [31merror[39m: Error while verifying jwt:  jwt expired
+2024-06-16 01:25:19 [31merror[39m: Error saving message to database: write EPIPE
+2024-06-16 04:31:03 [31merror[39m: Error saving message to database: Message validation failed: recipient: Path `recipient` is required.
+2024-06-16 04:31:14 [31merror[39m: Error saving message to database: Message validation failed: recipient: Path `recipient` is required.
+2024-06-16 04:31:45 [31merror[39m: Error saving message to database: Message validation failed: recipient: Path `recipient` is required.
+2024-06-16 07:38:24 [31merror[39m: Error while registering:  Expected a string but received a undefined
+2024-06-16 07:38:55 [31merror[39m: Error while registering:  Expected a string but received a undefined
+2024-06-21 00:21:02 [31merror[39m: Error saving message to database: Message validation failed: message: [object Object] is not a valid message format!
+2024-06-21 00:21:43 [31merror[39m: Error saving message to database: Message validation failed: message: [object Object] is not a valid message format!
+2024-06-21 00:29:17 [31merror[39m: Error saving message to database: Message validation failed: message: [object Object] is not a valid message format!
