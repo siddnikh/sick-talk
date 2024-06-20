@@ -37,22 +37,30 @@ exports.getUsers = async (req, res, next) => {
       const messages = await Message.find({
         $or: [{ sender: userId }, { recipient: userId }],
       })
-      .populate('sender recipient', 'username')
-      .sort({ createdAt: -1 });
+        .populate("sender recipient", "username role")
+        .sort({ createdAt: -1 });
 
       const users = new Map();
 
       for (const message of messages) {
-        if (message.sender._id.toString() !== userId && !users.has(message.sender._id.toString())) {
+        if (
+          message.sender._id.toString() !== userId &&
+          !users.has(message.sender._id.toString())
+        ) {
           users.set(message.sender._id.toString(), {
             username: message.sender.username,
-            _id: message.sender._id
+            role: message.sender.role,
+            _id: message.sender._id,
           });
         }
-        if (message.recipient._id.toString() !== userId && !users.has(message.recipient._id.toString())) {
+        if (
+          message.recipient._id.toString() !== userId &&
+          !users.has(message.recipient._id.toString())
+        ) {
           users.set(message.recipient._id.toString(), {
             username: message.recipient.username,
-            _id: message.recipient._id
+            role: message.recipient.role,
+            _id: message.recipient._id,
           });
         }
       }

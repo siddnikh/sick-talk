@@ -66,3 +66,12 @@ exports.login = async (req, res, next) => {
         next(error);
     }
 };
+
+exports.me = async (req, res, next) => {
+    try {
+        res.status(200).send(req.user);
+    } catch (error) {
+        logger.error("Error fetching user details: ", error);
+        next(error);
+    }
+};

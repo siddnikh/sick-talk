@@ -1,5 +1,6 @@
 require('dotenv').config();
 const http = require('http');
+const express = require('express');
 const app = require('./app');
 const logger = require('./config/logger');
 const connectDB = require('./config/dbConfig');
@@ -7,7 +8,9 @@ const socketIo = require('socket.io');
 const jwt = require('jsonwebtoken');
 const Message = require('./models/messageModel');
 const { transformNewMessage } = require('./utils/transformers');
-
+const multer = require('multer');
+const path = require('path');
+const fs = require('fs');
 
 const PORT = process.env.PORT || 4000;
 const server = http.createServer(app);
@@ -22,6 +25,27 @@ if (process.env.PORT) {
 } else {
     logger.error("Failed to load env file. ❌");
 }
+
+// Configure multer for file upload
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, 'uploads/');
+    },
+    filename: (req, file, cb) => {
+        cb(null, Date.now() + '-' + file.originalname);
+    },
+});
+
+const upload = multer({ storage });
+
+const ensureUploadsDirectoryExists = () => {
+    const dir = path.join(__dirname, 'uploads');
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir);
+    }
+};
+
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Middleware to authenticate socket connections
 io.use((socket, next) => {
@@ -57,6 +81,47 @@ io.on('connection', (socket) => {
             io.emit('receiveMessage', messageToSend);
         } catch (error) {
             logger.error('Error saving message to database:', error);
+        }
+    });
+
+       socket.on('uploadFile', async (data, callback) => {
+        try {
+            ensureUploadsDirectoryExists();
+            const buffer = Buffer.from(data.file);
+            const fileName = Date.now() + '-' + data.fileName;
+            const filePath = path.join('uploads', fileName);
+
+            fs.writeFile(filePath, buffer, async (err) => {
+                if (err) {
+                    logger.error('Error saving file:', err);
+                    return callback({ error: 'Error saving file' });
+                }
+
+                const fileUrl = `uploads/${fileName}`;
+
+                const newMessage = {
+                    sender: socket.user.id,
+                    recipient: data.recipient,
+                    message: {
+                        type: 'media',
+                        url: fileUrl,
+                    },
+                    timestamp: new Date(),
+                };
+
+                try {
+                    await Message.create(newMessage);
+                    const messageToSend = await transformNewMessage(newMessage);
+                    io.emit('receiveMessage', messageToSend);
+                    callback({ url: fileUrl });
+                } catch (error) {
+                    logger.error('Error saving message to database:', error);
+                    callback({ error: 'Error saving message to database' });
+                }
+            });
+        } catch (error) {
+            logger.error('Error handling file upload:', error);
+            callback({ error: 'Error handling file upload' });
         }
     });
 
