@@ -6388,3 +6388,608 @@
 2024-06-21 13:07:16 [32minfo[39m: env file loaded successfully! 💪
 2024-06-21 13:07:16 [32minfo[39m: Server is running on port 4000 🚀
 2024-06-21 13:07:18 [32minfo[39m: MongoDB connected successfully ⌗
+2024-06-23 17:46:53 [32minfo[39m: env file loaded successfully! 💪
+2024-06-23 17:46:53 [32minfo[39m: Server is running on port 4000 🚀
+2024-06-23 17:46:55 [32minfo[39m: MongoDB connected successfully ⌗
+2024-06-23 17:56:01 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 17:56:02 [32minfo[39m: ::1 - - [23/Jun/2024:12:26:02 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:56:27 [32minfo[39m: Received POST request for /auth/register
+2024-06-23 17:56:28 [32minfo[39m: ::1 - - [23/Jun/2024:12:26:28 +0000] "POST /auth/register HTTP/1.1" 409 40 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:56:32 [32minfo[39m: Received POST request for /auth/register
+2024-06-23 17:56:33 [32minfo[39m: ::1 - - [23/Jun/2024:12:26:33 +0000] "POST /auth/register HTTP/1.1" 201 42 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:56:44 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 17:56:44 [32minfo[39m: ::1 - - [23/Jun/2024:12:26:44 +0000] "POST /auth/login HTTP/1.1" 200 234 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:56:46 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 17:56:46 [32minfo[39m: Received GET request for /users
+2024-06-23 17:56:47 [32minfo[39m: ::1 - - [23/Jun/2024:12:26:47 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:56:47 [32minfo[39m: Received GET request for /users
+2024-06-23 17:56:47 [32minfo[39m: ::1 - - [23/Jun/2024:12:26:47 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:02 [32minfo[39m: Received GET request for /users/exists/siddtest
+2024-06-23 17:57:02 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:02 +0000] "GET /users/exists/siddtest HTTP/1.1" 200 55 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:02 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 17:57:03 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:03 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:31 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 17:57:31 [32minfo[39m: Received GET request for /tasks
+2024-06-23 17:57:31 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 17:57:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:31 +0000] "GET /auth/me HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:31 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 17:57:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:31 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:31 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 17:57:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:31 +0000] "GET /tasks HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:31 [32minfo[39m: Received GET request for /tasks
+2024-06-23 17:57:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:31 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:31 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 17:57:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:31 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:57:32 [32minfo[39m: ::1 - - [23/Jun/2024:12:27:32 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:58:12 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 17:58:12 [32minfo[39m: Received GET request for /tasks
+2024-06-23 17:58:12 [32minfo[39m: ::1 - - [23/Jun/2024:12:28:12 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:58:12 [32minfo[39m: ::1 - - [23/Jun/2024:12:28:12 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:58:16 [32minfo[39m: Received GET request for /users
+2024-06-23 17:58:16 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 17:58:17 [32minfo[39m: ::1 - - [23/Jun/2024:12:28:17 +0000] "GET /users HTTP/1.1" 200 73 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:58:17 [32minfo[39m: Received GET request for /users
+2024-06-23 17:58:18 [32minfo[39m: ::1 - - [23/Jun/2024:12:28:18 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 17:58:18 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 17:58:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:28:19 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 200 260 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:00:03 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:00:04 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:00:04 [32minfo[39m: Received GET request for /users
+2024-06-23 18:00:04 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:00:04 [32minfo[39m: ::1 - - [23/Jun/2024:12:30:04 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:00:04 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:00:04 [32minfo[39m: ::1 - - [23/Jun/2024:12:30:04 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:00:04 [32minfo[39m: ::1 - - [23/Jun/2024:12:30:04 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:00:04 [32minfo[39m: Received GET request for /users
+2024-06-23 18:00:05 [32minfo[39m: ::1 - - [23/Jun/2024:12:30:05 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:02:10 [32minfo[39m: Received GET request for /users
+2024-06-23 18:02:10 [32minfo[39m: ::1 - - [23/Jun/2024:12:32:10 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:02:58 [32minfo[39m: Received GET request for /users
+2024-06-23 18:02:58 [32minfo[39m: ::1 - - [23/Jun/2024:12:32:58 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:03:16 [32minfo[39m: Received GET request for /users
+2024-06-23 18:03:16 [32minfo[39m: ::1 - - [23/Jun/2024:12:33:16 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:03:23 [32minfo[39m: Received GET request for /users
+2024-06-23 18:03:23 [32minfo[39m: ::1 - - [23/Jun/2024:12:33:23 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:03:50 [32minfo[39m: Received GET request for /users
+2024-06-23 18:03:51 [32minfo[39m: ::1 - - [23/Jun/2024:12:33:51 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:04:08 [32minfo[39m: Received GET request for /users
+2024-06-23 18:04:08 [32minfo[39m: ::1 - - [23/Jun/2024:12:34:08 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:04:29 [32minfo[39m: Received GET request for /users
+2024-06-23 18:04:29 [32minfo[39m: ::1 - - [23/Jun/2024:12:34:29 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:04:50 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:04:51 [32minfo[39m: ::1 - - [23/Jun/2024:12:34:51 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:08:46 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:08:46 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:08:46 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:08:46 [32minfo[39m: ::1 - - [23/Jun/2024:12:38:46 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:09:18 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:09:18 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:09:18 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:09:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:39:19 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:09:23 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:09:23 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:09:23 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:09:23 [32minfo[39m: ::1 - - [23/Jun/2024:12:39:23 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:09:29 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:09:29 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:09:29 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:09:30 [32minfo[39m: ::1 - - [23/Jun/2024:12:39:30 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:09:38 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:09:38 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:09:38 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:09:38 [32minfo[39m: ::1 - - [23/Jun/2024:12:39:38 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:09:56 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:09:56 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:09:56 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:09:57 [32minfo[39m: ::1 - - [23/Jun/2024:12:39:57 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:10:27 [32minfo[39m: Received GET request for /users
+2024-06-23 18:10:28 [32minfo[39m: ::1 - - [23/Jun/2024:12:40:28 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:10:42 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:10:42 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:10:42 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:10:43 [32minfo[39m: ::1 - - [23/Jun/2024:12:40:43 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:11:37 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:11:37 [32minfo[39m: ::1 - - [23/Jun/2024:12:41:37 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:11:55 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:11:55 [32minfo[39m: ::1 - - [23/Jun/2024:12:41:55 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:12:19 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:12:20 [32minfo[39m: ::1 - - [23/Jun/2024:12:42:20 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:12:39 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:12:39 [32minfo[39m: ::1 - - [23/Jun/2024:12:42:39 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:04 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:04 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:04 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:12 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:12 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:12 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:20 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:20 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:20 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:33 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:33 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:33 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:39 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:40 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:40 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:44 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:45 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:45 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:14:56 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:14:56 [32minfo[39m: ::1 - - [23/Jun/2024:12:44:56 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:15:01 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:15:01 [32minfo[39m: ::1 - - [23/Jun/2024:12:45:01 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:15:04 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:15:04 [32minfo[39m: ::1 - - [23/Jun/2024:12:45:04 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:15:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:15:22 [32minfo[39m: ::1 - - [23/Jun/2024:12:45:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:15:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:15:25 [32minfo[39m: ::1 - - [23/Jun/2024:12:45:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:16:44 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:16:44 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:16:44 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:16:44 [32minfo[39m: Received GET request for /users
+2024-06-23 18:16:44 [32minfo[39m: ::1 - - [23/Jun/2024:12:46:44 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 200 521 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:16:44 [32minfo[39m: ::1 - - [23/Jun/2024:12:46:44 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:17:05 [32minfo[39m: Received GET request for /users
+2024-06-23 18:17:06 [32minfo[39m: ::1 - - [23/Jun/2024:12:47:06 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:17:18 [32minfo[39m: Received GET request for /users
+2024-06-23 18:17:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:47:19 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:17:33 [32minfo[39m: Received GET request for /users
+2024-06-23 18:17:34 [32minfo[39m: ::1 - - [23/Jun/2024:12:47:34 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:24 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:18:24 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:18:24 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:18:25 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:25 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:30 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:18:30 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:18:30 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:18:30 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:30 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:30 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:18:30 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:30 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:30 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:18:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:31 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:31 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:18:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:31 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:31 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:18:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:31 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:18:31 [32minfo[39m: ::1 - - [23/Jun/2024:12:48:31 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:21:25 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:21:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:21:25 [32minfo[39m: ::1 - - [23/Jun/2024:12:51:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:21:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:21:25 [32minfo[39m: ::1 - - [23/Jun/2024:12:51:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:21:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:21:25 [32minfo[39m: ::1 - - [23/Jun/2024:12:51:25 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:21:25 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:21:25 [32minfo[39m: ::1 - - [23/Jun/2024:12:51:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:21:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:21:26 [32minfo[39m: ::1 - - [23/Jun/2024:12:51:26 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:21:26 [32minfo[39m: ::1 - - [23/Jun/2024:12:51:26 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:08 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:08 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:24:08 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:08 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:08 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:08 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:13 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:13 [32minfo[39m: Received GET request for /users
+2024-06-23 18:24:13 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:24:13 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:13 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:13 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:13 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:13 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:14 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:14 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:14 [32minfo[39m: Received GET request for /users
+2024-06-23 18:24:14 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:14 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:18 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:24:18 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:24:18 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:18 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:18 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:18 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:18 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:18 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:18 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:19 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:19 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:24:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:19 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:19 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:19 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:19 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:19 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:20 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:20 [32minfo[39m: Received GET request for /users
+2024-06-23 18:24:20 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:24:20 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:20 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:20 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:20 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:20 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:20 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:20 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:20 [32minfo[39m: Received GET request for /users
+2024-06-23 18:24:21 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:21 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:22 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:24:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:22 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:24:22 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:22 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:22 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:22 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:22 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:24:22 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:22 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:23 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:23 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:23 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:23 [32minfo[39m: Received GET request for /users
+2024-06-23 18:24:23 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:24:23 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:23 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:23 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:24:23 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:23 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:23 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:23 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:24:23 [32minfo[39m: Received GET request for /users
+2024-06-23 18:24:24 [32minfo[39m: ::1 - - [23/Jun/2024:12:54:24 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:40 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:41 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:41 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:41 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:41 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:41 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:42 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:25:42 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:42 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:25:42 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:42 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:42 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:42 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:42 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:42 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:42 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:42 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:42 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:25:43 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:43 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:43 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:43 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:43 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:43 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:43 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:43 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:43 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:25:43 [32minfo[39m: Received GET request for /users
+2024-06-23 18:25:43 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:43 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:43 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:43 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:43 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:44 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:44 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:44 [32minfo[39m: Received GET request for /users
+2024-06-23 18:25:45 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:45 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:46 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:25:47 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:47 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:50 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:25:50 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:25:50 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:50 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:50 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:50 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:50 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:50 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:50 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:50 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:50 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:50 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:25:50 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:50 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:50 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:51 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:51 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:51 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:51 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:55 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:55 [32minfo[39m: Received GET request for /users
+2024-06-23 18:25:55 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:25:55 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:55 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:55 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:25:55 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:55 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:56 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:56 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:25:56 [32minfo[39m: Received GET request for /users
+2024-06-23 18:25:56 [32minfo[39m: ::1 - - [23/Jun/2024:12:55:56 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:26:28 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:30:24 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:30:24 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:30:24 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:24 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+2024-06-23 18:30:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:30:25 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+2024-06-23 18:30:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:30:25 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:25 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+2024-06-23 18:30:25 [32minfo[39m: Received GET request for /tasks
+2024-06-23 18:30:25 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+2024-06-23 18:30:25 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:30:25 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:25 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+2024-06-23 18:30:25 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:25 +0000] "GET /tasks HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+2024-06-23 18:30:43 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:30:43 [32minfo[39m: Received GET request for /users
+2024-06-23 18:30:43 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:30:43 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:43 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:30:43 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:30:44 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:44 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:30:44 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:44 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:30:44 [32minfo[39m: Received GET request for /users
+2024-06-23 18:30:45 [32minfo[39m: ::1 - - [23/Jun/2024:13:00:45 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:11 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:31:11 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:11 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:14 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:31:14 [32minfo[39m: Received GET request for /users
+2024-06-23 18:31:14 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:31:14 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:31:14 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:14 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:14 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:31:14 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:14 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:14 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:14 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:14 [32minfo[39m: Received GET request for /users
+2024-06-23 18:31:15 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:15 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:16 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:31:16 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:16 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:22 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:31:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:31:22 [32minfo[39m: Received GET request for /users
+2024-06-23 18:31:22 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:31:22 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:22 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:31:22 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:22 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:22 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:22 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:22 [32minfo[39m: Received GET request for /users
+2024-06-23 18:31:23 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:23 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:31:35 [32minfo[39m: Received GET request for /users
+2024-06-23 18:31:36 [32minfo[39m: ::1 - - [23/Jun/2024:13:01:36 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:32:31 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:32:32 [32minfo[39m: ::1 - - [23/Jun/2024:13:02:32 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:32:37 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:32:37 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:32:37 [32minfo[39m: Received GET request for /users
+2024-06-23 18:32:37 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 18:32:37 [32minfo[39m: ::1 - - [23/Jun/2024:13:02:37 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:32:37 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:32:38 [32minfo[39m: ::1 - - [23/Jun/2024:13:02:38 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:32:38 [32minfo[39m: ::1 - - [23/Jun/2024:13:02:38 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:32:38 [32minfo[39m: Received GET request for /users
+2024-06-23 18:32:39 [32minfo[39m: ::1 - - [23/Jun/2024:13:02:39 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:34:39 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:34:40 [32minfo[39m: ::1 - - [23/Jun/2024:13:04:40 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:34:43 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:34:43 [32minfo[39m: ::1 - - [23/Jun/2024:13:04:43 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:34:53 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:34:53 [32minfo[39m: ::1 - - [23/Jun/2024:13:04:53 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:35:05 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:35:05 [32minfo[39m: ::1 - - [23/Jun/2024:13:05:05 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:35:17 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:35:17 [32minfo[39m: ::1 - - [23/Jun/2024:13:05:17 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:35:33 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:35:33 [32minfo[39m: ::1 - - [23/Jun/2024:13:05:33 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:36:09 [32minfo[39m: Received GET request for /users
+2024-06-23 18:36:09 [32minfo[39m: ::1 - - [23/Jun/2024:13:06:09 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:36:14 [32minfo[39m: Received GET request for /users
+2024-06-23 18:36:14 [32minfo[39m: ::1 - - [23/Jun/2024:13:06:14 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:36:19 [32minfo[39m: Received GET request for /users
+2024-06-23 18:36:19 [32minfo[39m: ::1 - - [23/Jun/2024:13:06:19 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:37:52 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-23 18:37:53 [32minfo[39m: ::1 - - [23/Jun/2024:13:07:53 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:39:02 [32minfo[39m: Received GET request for /users
+2024-06-23 18:39:03 [32minfo[39m: ::1 - - [23/Jun/2024:13:09:03 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:39:07 [32minfo[39m: Received GET request for /users
+2024-06-23 18:39:08 [32minfo[39m: ::1 - - [23/Jun/2024:13:09:08 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:39:46 [32minfo[39m: Received GET request for /users
+2024-06-23 18:39:47 [32minfo[39m: ::1 - - [23/Jun/2024:13:09:47 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:40:51 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 18:41:01 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 18:41:01 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:01 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:17 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 18:41:17 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:17 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:19 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 18:41:19 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:19 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:34 [32minfo[39m: Received POST request for /auth/register
+2024-06-23 18:41:35 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:35 +0000] "POST /auth/register HTTP/1.1" 201 42 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:45 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 18:41:45 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:45 +0000] "POST /auth/login HTTP/1.1" 200 236 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:47 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:41:47 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:41:47 [32minfo[39m: Received GET request for /users
+2024-06-23 18:41:47 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:47 +0000] "GET /auth/me HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:47 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:41:47 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:47 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:47 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:47 +0000] "GET /users HTTP/1.1" 200 681 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:41:47 [32minfo[39m: Received GET request for /users
+2024-06-23 18:41:48 [32minfo[39m: ::1 - - [23/Jun/2024:13:11:48 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:42:36 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:43:09 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:43:09 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:43:09 [32minfo[39m: Received GET request for /users
+2024-06-23 18:43:10 [32minfo[39m: ::1 - - [23/Jun/2024:13:13:10 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:43:10 [32minfo[39m: Received GET request for /auth/me
+2024-06-23 18:43:10 [32minfo[39m: ::1 - - [23/Jun/2024:13:13:10 +0000] "GET /auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:43:10 [32minfo[39m: ::1 - - [23/Jun/2024:13:13:10 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:43:10 [32minfo[39m: Received GET request for /users
+2024-06-23 18:43:10 [32minfo[39m: ::1 - - [23/Jun/2024:13:13:10 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:44:04 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:44:04 [32minfo[39m: Received GET request for /users
+2024-06-23 18:44:05 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:44:05 [32minfo[39m: ::1 - - [23/Jun/2024:13:14:05 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:44:05 [32minfo[39m: Received GET request for /users
+2024-06-23 18:44:06 [32minfo[39m: ::1 - - [23/Jun/2024:13:14:06 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:48:50 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:48:51 [32minfo[39m: ::1 - - [23/Jun/2024:13:18:51 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:50:08 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:50:08 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:50:08 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:50:09 [32minfo[39m: ::1 - - [23/Jun/2024:13:20:09 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 200 256 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:50:55 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:50:55 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:50:55 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:50:55 [32minfo[39m: ::1 - - [23/Jun/2024:13:20:55 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 200 3867 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:53:01 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:53:01 [32minfo[39m: ::1 - - [23/Jun/2024:13:23:01 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:54:44 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:54:44 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:54:44 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:54:44 [32minfo[39m: Received GET request for /users
+2024-06-23 18:54:45 [32minfo[39m: ::1 - - [23/Jun/2024:13:24:45 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:54:45 [32minfo[39m: ::1 - - [23/Jun/2024:13:24:45 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:54:46 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:54:46 [32minfo[39m: ::1 - - [23/Jun/2024:13:24:46 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:55:03 [32minfo[39m: Received GET request for /users
+2024-06-23 18:55:03 [32minfo[39m: ::1 - - [23/Jun/2024:13:25:03 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:55:06 [32minfo[39m: Received GET request for /users
+2024-06-23 18:55:07 [32minfo[39m: ::1 - - [23/Jun/2024:13:25:07 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:55:09 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:55:09 [32minfo[39m: Received GET request for /users
+2024-06-23 18:55:09 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:55:09 [32minfo[39m: ::1 - - [23/Jun/2024:13:25:09 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:55:09 [32minfo[39m: Received GET request for /users
+2024-06-23 18:55:10 [32minfo[39m: ::1 - - [23/Jun/2024:13:25:10 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:55:11 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:55:12 [32minfo[39m: ::1 - - [23/Jun/2024:13:25:12 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:55:57 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:55:57 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:55:57 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:55:57 [32minfo[39m: ::1 - - [23/Jun/2024:13:25:57 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:56:02 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:56:02 [32minfo[39m: ::1 - - [23/Jun/2024:13:26:02 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:56:17 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:56:17 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:56:17 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:56:18 [32minfo[39m: ::1 - - [23/Jun/2024:13:26:18 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:56:21 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:56:21 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:56:21 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:56:22 [32minfo[39m: ::1 - - [23/Jun/2024:13:26:22 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:56:29 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:56:29 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:56:29 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:56:30 [32minfo[39m: ::1 - - [23/Jun/2024:13:26:30 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:56:37 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:56:37 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:56:37 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:56:38 [32minfo[39m: ::1 - - [23/Jun/2024:13:26:38 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:56:51 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:56:51 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:56:51 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:56:52 [32minfo[39m: ::1 - - [23/Jun/2024:13:26:52 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:57:04 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:57:04 [32minfo[39m: ::1 - - [23/Jun/2024:13:27:04 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:57:23 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:57:23 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:57:23 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:57:23 [32minfo[39m: ::1 - - [23/Jun/2024:13:27:23 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:58:01 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:58:01 [32minfo[39m: ::1 - - [23/Jun/2024:13:28:01 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:58:34 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:58:34 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:58:34 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:58:34 [32minfo[39m: ::1 - - [23/Jun/2024:13:28:34 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:58:40 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:58:40 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:58:40 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:58:40 [32minfo[39m: ::1 - - [23/Jun/2024:13:28:40 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:58:44 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:58:44 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:58:44 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:58:44 [32minfo[39m: ::1 - - [23/Jun/2024:13:28:44 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:58:54 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:58:54 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:58:54 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:58:54 [32minfo[39m: ::1 - - [23/Jun/2024:13:28:54 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:58:57 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:58:57 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:58:57 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:58:58 [32minfo[39m: ::1 - - [23/Jun/2024:13:28:58 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:59:02 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:59:02 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:59:02 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:59:02 [32minfo[39m: ::1 - - [23/Jun/2024:13:29:02 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:59:03 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 18:59:03 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-23 18:59:03 [32minfo[39m: New client connected: 66781f07849e78a4f9129334
+2024-06-23 18:59:03 [32minfo[39m: ::1 - - [23/Jun/2024:13:29:03 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 18:59:58 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-23 18:59:58 [32minfo[39m: ::1 - - [23/Jun/2024:13:29:58 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:00:02 [32minfo[39m: Received GET request for /chat/messages/667695e3761e8c558b6d7c55
+2024-06-23 19:00:02 [32minfo[39m: ::1 - - [23/Jun/2024:13:30:02 +0000] "GET /chat/messages/667695e3761e8c558b6d7c55 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:04:42 [32minfo[39m: Received GET request for /chat/messages/66769976761e8c558b6d7d03
+2024-06-23 19:04:42 [32minfo[39m: ::1 - - [23/Jun/2024:13:34:42 +0000] "GET /chat/messages/66769976761e8c558b6d7d03 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:05 [33mwarn[39m: Client disconnected: 66781f07849e78a4f9129334
+2024-06-23 19:05:23 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 19:05:24 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:24 +0000] "POST /auth/login HTTP/1.1" 200 234 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:26 [32minfo[39m: New client connected: 66781479849e78a4f912916e
+2024-06-23 19:05:26 [32minfo[39m: Received GET request for /users
+2024-06-23 19:05:26 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:26 +0000] "GET /users HTTP/1.1" 200 73 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:26 [32minfo[39m: Received GET request for /users
+2024-06-23 19:05:27 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:27 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:36 [33mwarn[39m: Client disconnected: 66781479849e78a4f912916e
+2024-06-23 19:05:48 [32minfo[39m: Received POST request for /auth/register
+2024-06-23 19:05:49 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:49 +0000] "POST /auth/register HTTP/1.1" 201 42 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:56 [32minfo[39m: Received POST request for /auth/login
+2024-06-23 19:05:56 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:56 +0000] "POST /auth/login HTTP/1.1" 200 234 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:58 [32minfo[39m: New client connected: 667824b5849e78a4f9129403
+2024-06-23 19:05:58 [32minfo[39m: Received GET request for /users
+2024-06-23 19:05:59 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:59 +0000] "GET /users HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:05:59 [32minfo[39m: Received GET request for /users
+2024-06-23 19:05:59 [32minfo[39m: ::1 - - [23/Jun/2024:13:35:59 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:09:31 [33mwarn[39m: Client disconnected: 667824b5849e78a4f9129403
+2024-06-23 19:09:31 [32minfo[39m: Received GET request for /users
+2024-06-23 19:09:31 [32minfo[39m: New client connected: 667824b5849e78a4f9129403
+2024-06-23 19:09:31 [32minfo[39m: ::1 - - [23/Jun/2024:13:39:31 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:09:31 [32minfo[39m: Received GET request for /users
+2024-06-23 19:09:32 [32minfo[39m: ::1 - - [23/Jun/2024:13:39:32 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:10:35 [33mwarn[39m: Client disconnected: 667824b5849e78a4f9129403
+2024-06-23 19:10:35 [32minfo[39m: Received GET request for /users
+2024-06-23 19:10:35 [32minfo[39m: New client connected: 667824b5849e78a4f9129403
+2024-06-23 19:10:36 [32minfo[39m: ::1 - - [23/Jun/2024:13:40:36 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:10:36 [32minfo[39m: Received GET request for /users
+2024-06-23 19:10:36 [32minfo[39m: ::1 - - [23/Jun/2024:13:40:36 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-23 19:10:47 [33mwarn[39m: Client disconnected: 667824b5849e78a4f9129403
+2024-06-25 16:29:33 [32minfo[39m: env file loaded successfully! 💪
+2024-06-25 16:29:33 [32minfo[39m: Server is running on port 4000 🚀
+2024-06-25 16:29:35 [32minfo[39m: MongoDB connected successfully ⌗
+2024-06-25 16:29:46 [32minfo[39m: env file loaded successfully! 💪
+2024-06-25 16:29:46 [32minfo[39m: Server is running on port 4000 🚀
+2024-06-25 16:29:48 [32minfo[39m: MongoDB connected successfully ⌗
+2024-06-25 16:40:23 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:40:23 [32minfo[39m: ::1 - - [25/Jun/2024:11:10:23 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:40:30 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:40:31 [32minfo[39m: ::1 - - [25/Jun/2024:11:10:31 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:41:54 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:41:54 [32minfo[39m: ::1 - - [25/Jun/2024:11:11:54 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:42:05 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:42:06 [32minfo[39m: ::1 - - [25/Jun/2024:11:12:06 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:42:22 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:42:22 [32minfo[39m: ::1 - - [25/Jun/2024:11:12:22 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+2024-06-25 16:42:33 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:42:33 [32minfo[39m: ::1 - - [25/Jun/2024:11:12:33 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+2024-06-25 16:42:38 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:42:38 [32minfo[39m: ::1 - - [25/Jun/2024:11:12:38 +0000] "POST /auth/login HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+2024-06-25 16:45:51 [32minfo[39m: env file loaded successfully! 💪
+2024-06-25 16:45:51 [32minfo[39m: Server is running on port 4000 🚀
+2024-06-25 16:45:53 [32minfo[39m: MongoDB connected successfully ⌗
+2024-06-25 16:46:23 [32minfo[39m: Received POST request for /auth/login
+2024-06-25 16:46:23 [32minfo[39m: ::1 - - [25/Jun/2024:11:16:23 +0000] "POST /auth/login HTTP/1.1" 200 236 "http://localhost:5173/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+2024-06-25 16:46:26 [32minfo[39m: Received GET request for /users
+2024-06-25 16:46:26 [32minfo[39m: New client connected: 6676c2863feedb4ef0970f18
+2024-06-25 16:46:26 [32minfo[39m: ::1 - - [25/Jun/2024:11:16:26 +0000] "GET /users HTTP/1.1" 200 838 "http://localhost:5173/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+2024-06-25 16:46:26 [32minfo[39m: Received GET request for /users
+2024-06-25 16:46:27 [32minfo[39m: ::1 - - [25/Jun/2024:11:16:27 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+2024-06-25 16:47:13 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-25 16:47:13 [32minfo[39m: ::1 - - [25/Jun/2024:11:17:13 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 200 808 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:48:46 [32minfo[39m: Received GET request for /users
+2024-06-25 16:48:46 [32minfo[39m: ::1 - - [25/Jun/2024:11:18:46 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:49:59 [32minfo[39m: Received GET request for /users
+2024-06-25 16:50:00 [32minfo[39m: ::1 - - [25/Jun/2024:11:20:00 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:50:07 [33mwarn[39m: Client disconnected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:07 [32minfo[39m: Received GET request for /users
+2024-06-25 16:50:07 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-25 16:50:07 [32minfo[39m: New client connected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:08 [32minfo[39m: ::1 - - [25/Jun/2024:11:20:08 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:50:08 [32minfo[39m: ::1 - - [25/Jun/2024:11:20:08 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 200 1597 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:50:08 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-25 16:50:08 [32minfo[39m: ::1 - - [25/Jun/2024:11:20:08 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:50:42 [33mwarn[39m: Client disconnected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:42 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-25 16:50:42 [32minfo[39m: New client connected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:42 [32minfo[39m: ::1 - - [25/Jun/2024:11:20:42 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:50:53 [33mwarn[39m: Client disconnected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:53 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-25 16:50:53 [32minfo[39m: New client connected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:54 [32minfo[39m: ::1 - - [25/Jun/2024:11:20:54 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:50:59 [33mwarn[39m: Client disconnected: 6676c2863feedb4ef0970f18
+2024-06-25 16:50:59 [32minfo[39m: Received GET request for /chat/messages/66769676761e8c558b6d7c63
+2024-06-25 16:51:00 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:00 +0000] "GET /chat/messages/66769676761e8c558b6d7c63 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:51:00 [32minfo[39m: New client connected: 6676c2863feedb4ef0970f18
+2024-06-25 16:51:05 [32minfo[39m: Received GET request for /chat/messages/66769869761e8c558b6d7cde
+2024-06-25 16:51:05 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:05 +0000] "GET /chat/messages/66769869761e8c558b6d7cde HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:51:06 [32minfo[39m: Received GET request for /chat/messages/6676a131761e8c558b6d7d15
+2024-06-25 16:51:07 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:07 +0000] "GET /chat/messages/6676a131761e8c558b6d7d15 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:51:07 [32minfo[39m: Received GET request for /chat/messages/66781f07849e78a4f9129334
+2024-06-25 16:51:08 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:08 +0000] "GET /chat/messages/66781f07849e78a4f9129334 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:51:08 [32minfo[39m: Received GET request for /chat/messages/6676c2863feedb4ef0970f18
+2024-06-25 16:51:09 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:09 +0000] "GET /chat/messages/6676c2863feedb4ef0970f18 HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:51:09 [32minfo[39m: Received GET request for /chat/messages/66781479849e78a4f912916e
+2024-06-25 16:51:10 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:10 +0000] "GET /chat/messages/66781479849e78a4f912916e HTTP/1.1" 200 3181 "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-25 16:51:31 [32minfo[39m: Received GET request for /users
+2024-06-25 16:51:32 [32minfo[39m: ::1 - - [25/Jun/2024:11:21:32 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-07-22 00:43:14 [32minfo[39m: env file loaded successfully! 💪
+2024-07-22 00:43:14 [32minfo[39m: Server is running on port 4000 🚀
+2024-07-22 00:43:45 [31merror[39m: MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-24 01:39:52 [32minfo[39m: env file loaded successfully! 💪
+2024-09-24 01:39:52 [32minfo[39m: Server is running on port 4000 🚀
+2024-09-24 01:39:52 [31merror[39m: MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.ksa9qum.mongodb.net

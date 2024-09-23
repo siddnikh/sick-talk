@@ -9,6 +9,7 @@ const jwt = require("jsonwebtoken");
 const Message = require("./models/messageModel");
 const { transformNewMessage } = require("./utils/transformers");
 const multer = require("multer");
+const sharp = require("sharp");
 const path = require("path");
 const fs = require("fs");
 
@@ -35,8 +36,6 @@ const storage = multer.diskStorage({
     cb(null, Date.now() + "-" + file.originalname);
   },
 });
-
-const upload = multer({ storage });
 
 const ensureUploadsDirectoryExists = () => {
   const dir = path.join(__dirname, "uploads");
@@ -91,7 +90,24 @@ io.on("connection", (socket) => {
       const fileName = Date.now() + "-" + data.fileName;
       const filePath = path.join("uploads", fileName);
 
-      fs.writeFile(filePath, buffer, async (err) => {
+      // Check the file extension to determine if it's an image
+      const ext = path.extname(fileName).toLowerCase();
+      let compressedBuffer = buffer;
+
+      if ([".png", ".jpg", ".jpeg", ".heic"].includes(ext)) {
+        try {
+          // Compress the image based on its format
+          compressedBuffer = await sharp(buffer)
+            .toFormat(ext === ".png" ? "png" : "jpeg", { quality: 80 }) // Adjust the quality as needed
+            .toBuffer();
+        } catch (compressionError) {
+          logger.error("Error compressing image:", compressionError);
+          return callback({ error: "Error compressing image" });
+        }
+      }
+
+      // Save the (possibly compressed) file
+      fs.writeFile(filePath, compressedBuffer, async (err) => {
         if (err) {
           logger.error("Error saving file:", err);
           return callback({ error: "Error saving file" });

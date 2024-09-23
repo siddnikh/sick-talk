@@ -32,3 +32,5 @@
 2024-06-21 00:52:17 [31merror[39m: Error handling file upload: fs is not defined
 2024-06-21 00:53:16 [31merror[39m: Error saving file: ENOENT: no such file or directory, open 'uploads/1718911396781-pot.py'
 2024-06-21 00:55:00 [31merror[39m: Error saving file: ENOENT: no such file or directory, open 'uploads/1718911450619-l.py'
+2024-07-22 00:43:45 [31merror[39m: MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-09-24 01:39:52 [31merror[39m: MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.cluster0.ksa9qum.mongodb.net
