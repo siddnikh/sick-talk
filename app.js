@@ -29,7 +29,6 @@ app.use(bodyParser.json());
 app.use('/chat', chatRoutes);
 app.use('/users', userRoutes);
 app.use('/auth', authRoutes);
-app.use('/tasks', taskRoutes);
 app.use(errorHandler);
 
 module.exports = app;

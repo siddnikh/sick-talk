@@ -15,10 +15,12 @@ const fs = require("fs");
 
 const PORT = process.env.PORT || 4000;
 const server = http.createServer(app);
+// TODO: CHANGE ORIGIN
 const io = socketIo(server, {
   cors: {
     origin: "*",
   },
+  maxHttpBufferSize: 1e7,
 });
 
 if (process.env.PORT) {
@@ -93,13 +95,20 @@ io.on("connection", (socket) => {
       // Check the file extension to determine if it's an image
       const ext = path.extname(fileName).toLowerCase();
       let compressedBuffer = buffer;
-
+      logger.debug("YO WE REACHED HERE");
       if ([".png", ".jpg", ".jpeg", ".heic"].includes(ext)) {
         try {
           // Compress the image based on its format
-          compressedBuffer = await sharp(buffer)
-            .toFormat(ext === ".png" ? "png" : "jpeg", { quality: 80 }) // Adjust the quality as needed
-            .toBuffer();
+          if (ext === ".png") {
+            compressedBuffer = await sharp(buffer)
+              .png({ quality: 80 }) // Adjust quality as needed
+              .toBuffer();
+          } else {
+            // Handle jpg and jpeg formats
+            compressedBuffer = await sharp(buffer)
+              .jpeg({ quality: 80 }) // Adjust quality as needed
+              .toBuffer();
+          }
         } catch (compressionError) {
           logger.error("Error compressing image:", compressionError);
           return callback({ error: "Error compressing image" });
